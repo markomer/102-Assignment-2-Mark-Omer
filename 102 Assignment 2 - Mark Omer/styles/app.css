@@ -1,0 +1,97 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Roboto",
+  sans-serif;
+  color: white;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/*utilities*/
+
+/*menu*/
+
+nav.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 40px;
+  padding: 10px;
+
+}
+nav.menu img.big-logo {
+  display: non;
+  height: 40px;
+}
+nav.menu img.small-logo{
+  display: none;
+  height: 30px;
+  width: 30px;
+}
+nav.menu a {
+
+  margin-right: 10px;
+}
+a.login-link{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+a.sub-link{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  letter-spacing: 3px;
+}
+a.arrows-link{
+  color: black
+}
+a.search-link,a.renew-link,a.menu-link {
+  display: none;
+}
+
+/*header*/
+header{
+  color: white;
+  text-align: center;
+}
+h1.latest-stories{
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+}
+p.header-message{
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+a.subscribe-button{
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(250, 200, 50);
+}
+a.subscribe-button:hover{
+  color: black;
+  background-color: rgb(250, 200, 50);
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+p.header-dash{
+  color: rgb(250, 200, 50);
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 22px;
